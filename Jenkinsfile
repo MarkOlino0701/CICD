@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         GIT_REPO_URL = 'https://github.com/MarkOlino0701/CICD.git'
-        GIT_CREDENTIALS_ID = 'github-pat'
+        GIT_CREDENTIALS_ID = 'github_pat'
         GIT_BRANCH = 'main'
     }
     stages {
